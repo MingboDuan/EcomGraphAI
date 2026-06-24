@@ -1,0 +1,47 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.playwright-mcp/
+
+# Runtime outputs
+logs/**
+!logs/.gitkeep
+output/**
+!output/.gitkeep
+
+# Large local data and model files
+checkpoint/**
+!checkpoint/.gitkeep
+pretrained/**
+!pretrained/.gitkeep
+data/images/**
+!data/images/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.arrow
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
+# Local large training data
+data/spell_check/raw/data.txt
+data/uie_0608/processed/*.txt
+data/uie_0608/processed/*.json
+
