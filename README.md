@@ -40,8 +40,8 @@ EcomGraphAI/
 ```
 
 ```powershell
-conda create -n image-vision python=3.12
-conda activate image-vision
+conda create -n graph python=3.12
+conda activate graph
 pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
 pip install transformers datasets scikit-learn tensorboard tqdm jupyter fastapi uvicorn
 ```
